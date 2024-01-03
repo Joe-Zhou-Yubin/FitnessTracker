@@ -1,0 +1,94 @@
+body {
+    background-color: #b0c4b1; /* Set the desired background color */
+    margin: 0; /* Remove default body margin */
+    font-family: Arial, sans-serif; /* Change the font if needed */
+}
+
+.topBar {
+    justify-content: end;
+    display: flex;
+    padding: 20px;
+}
+
+.monthButton {
+    background-color: #4a5759;
+    border: 2px solid black;
+    border-radius: 8px;
+    color: white;
+    padding: 2px;
+}
+
+.monthContent {
+    border-radius: 8px;
+    padding: 2px;
+    background-color: white;
+}
+
+.dayBar {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    height: 80px;
+    display: flex;
+    margin: 0 10px;
+    overflow-y: hidden;
+}
+
+/* Style the scrollbar */
+.dayBar::-webkit-scrollbar {
+    height: 5px; /* Adjust the width of the scrollbar */
+  }
+  
+  /* Style the scrollbar thumb */
+  .dayBar::-webkit-scrollbar-thumb {
+    background-color: #4a5759; /* Color of the thumb */
+    border-radius: 8px; /* Border radius of the thumb */
+    margin: auto;
+  }
+  
+  /* Style the scrollbar track */
+  .dayBar::-webkit-scrollbar-track {
+    height: 10px;
+    margin: 0 10px;
+  }
+
+  .dayBar::after {
+    content: ''; /* Create an empty pseudo-element */
+    display: block;
+    height: 20px; /* Adjust the height to create space */
+  }
+
+.day {
+    margin: auto 10px;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #b0c4b1;
+    color: #4a5759;
+    width: 60px;
+}
+.dayContent {
+    display: flex;
+    padding: 10px;
+}
+
+.categoryColumn {
+    background-color: #f7e1d7;
+    border-radius: 8px;
+    margin-right: 10px;
+    padding: 10px;
+    width: 20vw;
+}  
+
+.category {
+    display: block;
+    background-color: white;
+    margin: 10px 0;
+}
+
+.activityColumn {
+    margin-left: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    padding: 10px;
+    width: 100%;
+}
+
