@@ -5,7 +5,6 @@ body {
 }
 
 .topBar {
-    justify-content: end;
     display: flex;
     padding: 20px;
 }
@@ -18,7 +17,7 @@ body {
     padding: 2px;
 }
 
-.monthContent {
+.monthSelected {
     border-radius: 8px;
     padding: 2px;
     background-color: white;
@@ -36,26 +35,26 @@ body {
 /* Style the scrollbar */
 .dayBar::-webkit-scrollbar {
     height: 5px; /* Adjust the width of the scrollbar */
-  }
-  
+}
+
   /* Style the scrollbar thumb */
-  .dayBar::-webkit-scrollbar-thumb {
+.dayBar::-webkit-scrollbar-thumb {
     background-color: #4a5759; /* Color of the thumb */
     border-radius: 8px; /* Border radius of the thumb */
     margin: auto;
-  }
-  
+}
+
   /* Style the scrollbar track */
-  .dayBar::-webkit-scrollbar-track {
+.dayBar::-webkit-scrollbar-track {
     height: 10px;
     margin: 0 10px;
-  }
+}
 
-  .dayBar::after {
+.dayBar::after {
     content: ''; /* Create an empty pseudo-element */
     display: block;
     height: 20px; /* Adjust the height to create space */
-  }
+}
 
 .day {
     margin: auto 10px;
@@ -65,6 +64,7 @@ body {
     color: #4a5759;
     width: 60px;
 }
+
 .dayContent {
     display: flex;
     padding: 10px;
